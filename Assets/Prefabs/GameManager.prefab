@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3629597815766665395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2700640745310680538}
+  - component: {fileID: 5148818702571640025}
+  - component: {fileID: 8748216949064284341}
+  - component: {fileID: 7130093066092550908}
+  - component: {fileID: 452522920238251647}
+  - component: {fileID: 3666984904968337421}
+  - component: {fileID: 747156820489801241}
+  - component: {fileID: 1460497142274234333}
+  - component: {fileID: 8528957246341950851}
+  - component: {fileID: 5141692219703197881}
+  - component: {fileID: 7326615367852518225}
+  - component: {fileID: 8512038627347679549}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2700640745310680538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.166023, y: 76.22956, z: 29.865913}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5148818702571640025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51bcff7a96731014b802ebcd9b51515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VictoryScreen: {fileID: 6213626585886939177, guid: 30b96aaa3be9d6241ad0b1621ed44b42, type: 3}
+  DeathScreen: {fileID: 6213626585886939177, guid: 85ed88f56379e5547ae6246182b5bee6, type: 3}
+  PauseScreen: {fileID: 6213626585886939177, guid: 37b8aebc63dd07d4f8a7341bf7643408, type: 3}
+  playerRef: {fileID: 0}
+  UI: {fileID: 0}
+--- !u!114 &8748216949064284341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9551a16c35fa18147a22b23ba7a6701d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cheer_o_meter: 0
+--- !u!114 &7130093066092550908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae23c1482589074682f4bd817c51e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
+--- !u!114 &452522920238251647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8c9db81b8da48e48aef7234d4741f34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetHealthSlider: {fileID: 0}
+  currentHealthSlider: {fileID: 0}
+--- !u!120 &3666984904968337421
+LineRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MaskInteraction: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+  m_ApplyActiveColorSpace: 1
+--- !u!114 &747156820489801241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e861d9b7ca0403c4198b576c20c55967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circleRenderer: {fileID: 3666984904968337421}
+  resolution: 100
+--- !u!114 &1460497142274234333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d88c3d43da637ec49a8eeb618eb39861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - name: Wave 1
+    meleeEnemy: {fileID: 4496220474965426549, guid: 5e7a95d13efba38439ac7698e4c6956f, type: 3}
+    chaserEnemy: {fileID: 4496220474965426549, guid: 45a042afbe7a5474397629065de45b24, type: 3}
+    flyerEnemy: {fileID: 4496220474965426549, guid: 24db5e09d771b6a42a614e810cafc214, type: 3}
+    rangerEnemy: {fileID: 4496220474965426549, guid: 24e259fe4be422246836fddc783a4267, type: 3}
+    meleeCount: 0
+    chaserCount: 1
+    flyerCount: 0
+    rangerCount: 0
+    currentMeleeCount: 0
+    currentChaserCount: 0
+    currentFlyerCount: 0
+    currentRangerCount: 0
+    rate: 1
+  - name: Wave 1
+    meleeEnemy: {fileID: 4496220474965426549, guid: 5e7a95d13efba38439ac7698e4c6956f, type: 3}
+    chaserEnemy: {fileID: 4496220474965426549, guid: 45a042afbe7a5474397629065de45b24, type: 3}
+    flyerEnemy: {fileID: 4496220474965426549, guid: 24db5e09d771b6a42a614e810cafc214, type: 3}
+    rangerEnemy: {fileID: 4496220474965426549, guid: 24e259fe4be422246836fddc783a4267, type: 3}
+    meleeCount: 0
+    chaserCount: 1
+    flyerCount: 0
+    rangerCount: 0
+    currentMeleeCount: 0
+    currentChaserCount: 0
+    currentFlyerCount: 0
+    currentRangerCount: 0
+    rate: 1
+  VictoryScreen: {fileID: 0}
+  spawnPoints:
+  - {fileID: 0}
+  timeBetweenWaves: 5
+  waveCountDown: 0
+--- !u!114 &8528957246341950851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84af3c197f46f5f41a56fec38534d69f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCheerScore: 1000
+  cheerScoreDecayRate: 10
+  totalScore: 0
+--- !u!114 &5141692219703197881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d88c3d43da637ec49a8eeb618eb39861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - name: 
+    meleeEnemy: {fileID: 0}
+    chaserEnemy: {fileID: 0}
+    flyerEnemy: {fileID: 0}
+    rangerEnemy: {fileID: 0}
+    meleeCount: 0
+    chaserCount: 0
+    flyerCount: 0
+    rangerCount: 0
+    currentMeleeCount: 0
+    currentChaserCount: 0
+    currentFlyerCount: 0
+    currentRangerCount: 0
+    rate: 0
+  - name: 
+    meleeEnemy: {fileID: 0}
+    chaserEnemy: {fileID: 0}
+    flyerEnemy: {fileID: 0}
+    rangerEnemy: {fileID: 0}
+    meleeCount: 0
+    chaserCount: 0
+    flyerCount: 0
+    rangerCount: 0
+    currentMeleeCount: 0
+    currentChaserCount: 0
+    currentFlyerCount: 0
+    currentRangerCount: 0
+    rate: 0
+  - name: 
+    meleeEnemy: {fileID: 0}
+    chaserEnemy: {fileID: 0}
+    flyerEnemy: {fileID: 0}
+    rangerEnemy: {fileID: 0}
+    meleeCount: 0
+    chaserCount: 0
+    flyerCount: 0
+    rangerCount: 0
+    currentMeleeCount: 0
+    currentChaserCount: 0
+    currentFlyerCount: 0
+    currentRangerCount: 0
+    rate: 0
+  VictoryScreen: {fileID: 0}
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  timeBetweenWaves: 5
+  waveCountDown: 0
+--- !u!114 &7326615367852518225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84af3c197f46f5f41a56fec38534d69f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCheerScore: 0
+  cheerScoreDecayRate: 10
+  totalScore: 0
+--- !u!114 &8512038627347679549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3629597815766665395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e32dd06fe0aa849874cc5f26107442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pin: {fileID: 0}
+  scoreMultiplierText: {fileID: 0}
+  totalScoreText: {fileID: 0}
