@@ -6,4 +6,4 @@ The game is developed in Unity using C# and all assets were 3d modeled and anima
 The game was nominated for the LiU Game Awards.
 
 ## Trailer
-[![ThunderdomeTrailer](https://img.youtube.com/vi/08ucHxqaWYo&ab_channel=Jonathan/0.jpg)](https://www.youtube.com/watch?v=08ucHxqaWYo&ab_channel=Jonathan)
+[![ThunderdomeTrailer](https://img.youtube.com/vi/08ucHxqaWYo&ab/0.jpg)](https://www.youtube.com/watch?v=08ucHxqaWYo&ab)
